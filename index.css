@@ -1,0 +1,40 @@
+#display{
+    text-align: right;
+    height: 70px;
+    padding-right: 10px;
+    font-size: large;
+}
+.buttons{
+    width: 100%;
+    
+}
+.container {
+    max-width: 25%;
+    margin: 10vh auto 0 auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    border:1px solid black;
+    height: 40px;
+    padding-top: 20px;
+}
+#result{
+    background-color: cornflowerblue;
+    color: white;
+}
+#clear{
+    background-color: coral;
+    color: white;
+}
+#remove{
+    background-color:crimson;
+    color:#fff;
+}
+.button:hover{
+    background-color: dimgray;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
